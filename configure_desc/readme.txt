@@ -26,7 +26,7 @@ blocks-dir = "blocks"
 # checkpoint =
 
 # Override default WASM runtime (eosio::chain_plugin)
-# 指定默认的运行时库，可选项有 wavm, binaryen
+# 指定默认的运行时库，可选项有 wavm, binaryen; 如果需要replay可以设置成 wavm 可以提高速度，同步正常高度后再改成binaryen(默认)即可
 # wasm-runtime =
 
 # Maximum size (in MB) of the chain state database (eosio::chain_plugin)
